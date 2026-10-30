@@ -195,7 +195,7 @@ export function TabCores({ s, set, prods, cats }) {
     <div className="ad-split">
       <div>
         <h1 className="ad-h1">Cores e fontes</h1>
-        <Card title="Cores do catálogo" desc="Escolha no seletor ou digite o código hexadecimal (#55663C) ou RGB (85, 102, 60).">
+        <Card title="Cores do catálogo" desc="Escolha no seletor ou digite o código hexadecimal (#03DFCB) ou RGB (3, 223, 203).">
           <div className="ad-grid2">
             <ColorField label="Cor principal" hint="Botões, preços, categorias e navegação." value={c.primary} onChange={(primary) => setC({ primary })} />
             <ColorField label="Cor de destaque" hint="Degradê da capa e elementos de destaque." value={c.accent} onChange={(accent) => setC({ accent })} />
@@ -349,7 +349,7 @@ export function TabSobre({ s, set, save, prods, cats }) {
 }
 
 function StyleRow({ r, setR, w, f }) {
-  const pill = (on) => ({ padding: ".45rem .9rem", borderRadius: 999, border: "1.5px solid var(--ad-primary, #4E5E2E)", background: on ? "var(--ad-primary, #4E5E2E)" : "#fff", color: on ? "#fff" : "var(--ad-primary, #4E5E2E)", fontSize: ".85rem", cursor: "pointer" });
+  const pill = (on) => ({ padding: ".45rem .9rem", borderRadius: 999, border: "1.5px solid var(--ad-primary, #00857A)", background: on ? "var(--ad-primary, #00857A)" : "#fff", color: on ? "#fff" : "var(--ad-primary, #00857A)", fontSize: ".85rem", cursor: "pointer" });
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem", alignItems: "center", margin: ".2rem 0 1rem" }}>
       <button type="button" style={{ ...pill(Number(r[w]) < 600), fontWeight: 400 }} onClick={() => setR({ [w]: "400" })}>Normal</button>
