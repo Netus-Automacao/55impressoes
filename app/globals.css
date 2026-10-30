@@ -543,17 +543,17 @@ button,input,select,textarea{font:inherit;color:inherit}
 .topbar .nav-btn b{background:var(--primary);color:var(--on-primary)}
 
 /* ===== Onda na base do topo ===== */
-.hero-band{--s:30px;--w:260px;border-radius:0!important;padding-bottom:calc(2.6rem + var(--s));
+.hero-band{--s:26px;--w:25%;border-radius:0!important;padding-bottom:calc(2.6rem + var(--s));
   -webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - var(--s) + 1px) no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 28' preserveAspectRatio='none'%3E%3Cpath d='M0 0H200V14C167 26 133 26 100 14C67 2 33 2 0 14Z'/%3E%3C/svg%3E") bottom/var(--w) var(--s) repeat-x;
   mask:linear-gradient(#000 0 0) top/100% calc(100% - var(--s) + 1px) no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 28' preserveAspectRatio='none'%3E%3Cpath d='M0 0H200V14C167 26 133 26 100 14C67 2 33 2 0 14Z'/%3E%3C/svg%3E") bottom/var(--w) var(--s) repeat-x}
-@media(min-width:760px){.hero-band{--s:40px;--w:420px}}
+@media(min-width:760px){.hero-band{--s:36px;--w:25%}}
 .hero.no-band .hero-band{-webkit-mask:none;mask:none}
 
 /* ===== Onda no topo da seção "Sobre nós" ===== */
-.about{--s:30px;--w:260px;padding-top:calc(2.4rem + var(--s));
+.about{--s:26px;--w:25%;padding-top:calc(2.4rem + var(--s));
   -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 28' preserveAspectRatio='none'%3E%3Cpath d='M0 28V14C33 2 67 2 100 14C133 26 167 26 200 14V28Z'/%3E%3C/svg%3E") top/var(--w) var(--s) repeat-x,linear-gradient(#000 0 0) bottom/100% calc(100% - var(--s) + 1px) no-repeat;
   mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 28' preserveAspectRatio='none'%3E%3Cpath d='M0 28V14C33 2 67 2 100 14C133 26 167 26 200 14V28Z'/%3E%3C/svg%3E") top/var(--w) var(--s) repeat-x,linear-gradient(#000 0 0) bottom/100% calc(100% - var(--s) + 1px) no-repeat}
-@media(min-width:760px){.about{--s:40px;--w:420px}}
+@media(min-width:760px){.about{--s:36px;--w:25%}}
 
 /* ===== v4.10: sombra configurável ===== */
 .cat{--sh1:rgba(0,0,0,.28);--sh2:rgba(0,0,0,.13)}
